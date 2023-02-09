@@ -15,7 +15,14 @@ class index:
             pw='insigroup00',
             db='project00',
         )
-        a2=db.select('Album', limit=2)
+        # premier modification: ajout des albums,artist,... te changement de limite = 10
+        a2=db.select('Album', limit=10) 
+        artists=db.select('Artist', limit=10)
+        genres=db.select('Genre',limit=10)
+        tracks=db.select('Track',limit=10)
+        media_types=db.select('MediaType',limit=10)
+        playlists=db.select('Playlist',limit=10)
+
         result = '<html><head><title>test</title></head>'
         result += '<body>'
         for a in a2:
