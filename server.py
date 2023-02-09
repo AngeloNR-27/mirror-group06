@@ -23,7 +23,13 @@ class index:
         media_types=db.select('MediaType',limit=10)
         playlists=db.select('Playlist',limit=10)
 
+        #ajout html pour afficher la base de donne
         result = '<html><head><title>test</title></head>'
+        result += '<head><link rel="stylesheet" href="style.css">'
+        result += '</head>'
+        result += '<table border="1">'
+        
+        result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
         result += '<body>'
         for a in a2:
             result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
