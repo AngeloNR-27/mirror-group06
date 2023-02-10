@@ -34,10 +34,10 @@ class index:
         result = '<html><head><title>Server.py G06</title></head>'
 
         #ajout html pour afficher la base de donne
-        result = '<html><head><title>test</title><link rel="stylesheet" href="style.css"></head>'
+        result = '<html><head><title>test</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
         result += '<body>'
         result += '<h1>Menu</h1>'
-        result += '<ul>'
+        result += '<ul class="navbar">'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
         result += '<li><a href="#genres">Genres</a></li>'
@@ -45,7 +45,9 @@ class index:
         result += '<li><a href="#media_types">Media Types</a></li>'
         result += '<li><a href="#playlists">Playlists</a></li>'
         result += '</ul>'
-        result += '<head><link rel="stylesheet" href="style.css">'
+        result += '<head>'
+
+
         result += '</head>'
         result += '<table border="1">'
         
