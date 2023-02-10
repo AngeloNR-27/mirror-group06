@@ -35,10 +35,8 @@ class index:
 
         #ajout html pour afficher la base de donne
         result = '<html><head><title>test</title></head>'
-
-        result += '<head><link rel="stylesheet" href="style.css">'
-        result += '</head>'
-        result += '<table border="1">'
+        result += '<body>'
+        result += '<h1>Menu</h1>'
         result += '<ul>'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
@@ -47,7 +45,10 @@ class index:
         result += '<li><a href="#media_types">Media Types</a></li>'
         result += '<li><a href="#playlists">Playlists</a></li>'
         result += '</ul>'
-
+        result += '<head><link rel="stylesheet" href="style.css">'
+        result += '</head>'
+        result += '<table border="1">'
+        
         result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
 
         
@@ -73,7 +74,7 @@ class index:
             result +='</tr>'
         result +='</table>'
 
-        result += '<body>'
+        
         for a in a2:
             result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
 
