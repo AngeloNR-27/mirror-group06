@@ -34,12 +34,18 @@ class index:
         result = '<html><head><title>Server.py G06</title></head>'
 
         #ajout html pour afficher la base de donne
-        result = '<html><head><title>test</title></head>'
+        result = '<html><head><title>test</title>'
+        result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
+        result += '<link rel="stylesheet" href="style.css">'
 
-        result += '<head><link rel="stylesheet" href="style.css">'
         result += '</head>'
+
         result += '<table border="1">'  
         result += '<ul>'
+
+        result += '<body>'
+        result += '<ul class="navbar list-unstyled" style="background-color: lightgray; padding: 10px;">'
+
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
         result += '<li><a href="#genres">Genres</a></li>'
@@ -47,7 +53,8 @@ class index:
         result += '<li><a href="#media_types">Media Types</a></li>'
         result += '<li><a href="#playlists">Playlists</a></li>'
         result += '</ul>'
-
+        result += '<table border="1">'
+        
         result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
 
         
@@ -77,6 +84,11 @@ class index:
         """ Mise en commentaire de la boucle pour enlever les listes apparues au-dessous du tableau """
         # for a in a2:
         #     result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
+
+        
+        for a in a2:
+            result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
+
 
         result += '</body></html>'
         return result
