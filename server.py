@@ -40,7 +40,7 @@ class index:
 
         result += '</head>'
         result += '<body>'
-        result += '<ul class="navbar">'
+        result += '<ul class="navbar list-unstyled">'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
         result += '<li><a href="#genres">Genres</a></li>'
