@@ -38,7 +38,7 @@ class index:
 
         result += '<head><link rel="stylesheet" href="style.css">'
         result += '</head>'
-        result += '<table border="1">'
+        result += '<table border="1">'  
         result += '<ul>'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
@@ -74,8 +74,9 @@ class index:
         result +='</table>'
 
         result += '<body>'
-        for a in a2:
-            result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
+        """ Mise en commentaire de la boucle pour enlever les listes apparues au-dessous du tableau """
+        # for a in a2:
+        #     result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
 
         result += '</body></html>'
         return result
