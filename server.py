@@ -34,7 +34,7 @@ class index:
         result = '<html><head><title>Server.py G06</title></head>'
 
         #ajout html pour afficher la base de donne
-        result = '<html><head><title>test</title></head>'
+        result = '<html><head><title>test</title><link rel="stylesheet" href="style.css"></head>'
         result += '<body>'
         result += '<h1>Menu</h1>'
         result += '<ul>'
