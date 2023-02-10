@@ -36,7 +36,7 @@ class index:
         #ajout html pour afficher la base de donne
         result = '<html><head><title>test</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
         result += '<head>'
-        result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
+        result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
         result += '</head>'
         result += '<body>'
         result += '<h1>Menu</h1>'
