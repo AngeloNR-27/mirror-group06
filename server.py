@@ -35,6 +35,9 @@ class index:
 
         #ajout html pour afficher la base de donne
         result = '<html><head><title>test</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
+        result += '<head>'
+        result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
+        result += '</head>'
         result += '<body>'
         result += '<h1>Menu</h1>'
         result += '<ul class="navbar">'
@@ -45,10 +48,6 @@ class index:
         result += '<li><a href="#media_types">Media Types</a></li>'
         result += '<li><a href="#playlists">Playlists</a></li>'
         result += '</ul>'
-        result += '<head>'
-
-
-        result += '</head>'
         result += '<table border="1">'
         
         result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
