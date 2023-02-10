@@ -39,7 +39,15 @@ class index:
         result += '<head><link rel="stylesheet" href="style.css">'
         result += '</head>'
         result += '<table border="1">'
-        
+        result += '<ul>'
+        result += '<li><a href="#albums">Albums</a></li>'
+        result += '<li><a href="#artists">Artists</a></li>'
+        result += '<li><a href="#genres">Genres</a></li>'
+        result += '<li><a href="#tracks">Tracks</a></li>'
+        result += '<li><a href="#media_types">Media Types</a></li>'
+        result += '<li><a href="#playlists">Playlists</a></li>'
+        result += '</ul>'
+
         result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
 
         
