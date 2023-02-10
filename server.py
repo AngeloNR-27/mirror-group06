@@ -38,7 +38,6 @@ class index:
         result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
         result += '</head>'
         result += '<body>'
-        result += '<h1>Menu</h1>'
         result += '<ul class="navbar">'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
