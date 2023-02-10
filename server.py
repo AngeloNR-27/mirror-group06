@@ -82,12 +82,12 @@ class index:
 
         result += '<body>'
         """ Mise en commentaire de la boucle pour enlever les listes apparues au-dessous du tableau """
-        # for a in a2:
-        #     result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
+        """for a in a2:
+         result += a.Title + ',(' + str(a.ArtistId) + ') <br/>' """
 
         
-        for a in a2:
-            result += a.Title + ',(' + str(a.ArtistId) + ') <br/>'
+        """ for a in a2:
+            result += a.Title + ',(' + str(a.ArtistId) + ') <br/>' """
 
 
         result += '</body></html>'
