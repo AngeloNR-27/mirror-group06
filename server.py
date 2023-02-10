@@ -34,8 +34,7 @@ class index:
         result = '<html><head><title>Server.py G06</title></head>'
 
         #ajout html pour afficher la base de donne
-        result = '<html><head><title>test</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</head>'
-        result += '<head>'
+        result = '<html><head><title>test</title>'
         result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
         result += '</head>'
         result += '<body>'
