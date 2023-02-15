@@ -1,8 +1,9 @@
 import web
 web.config.debug = True
-
+#Ajout de l' URL pour la page Genres
 urls = (
-    '/', 'index'
+     '/', 'index',
+    '/genres', 'index.genres'
 )
 
 class index:
