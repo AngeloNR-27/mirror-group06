@@ -16,6 +16,7 @@ class index:
             pw='insigroup00',
             db='project00',
         )
+    
 
         """ antsoina any amin'ny base de données chinook,  """
         """ premier commit: ajout des albums et changement de limit=10"""
@@ -48,7 +49,7 @@ class index:
         result += '<ul class="navbar list-unstyled" style="background-color: lightgray; padding: 10px;">'
 
         result += '<li><a href="/">Home</a></li>'
-        result += '<li><a href="#genres">Genres</a></li>'
+        result += '<li><a href="/genres">Genres</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#tracks">Tracks</a></li>'
@@ -94,8 +95,11 @@ class index:
 
         result += '</body></html>'
         return result
+
         
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
     app.run()
+
+
