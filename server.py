@@ -1,9 +1,12 @@
 import web
+from DB import Db
+from genre  import genre
+
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
 urls = (
      '/', 'index',
-    '/genres', 'genres'
+    '/genre', 'genre'
 )
 
 class index:
@@ -49,7 +52,7 @@ class index:
         result += '<ul class="navbar list-unstyled" style="background-color: lightgray; padding: 10px;">'
 
         result += '<li><a href="/">Home</a></li>'
-        result += '<li><a href="/genres">Genres</a></li>'
+        result += '<li><a href="/genre">Genres</a></li>'
         result += '<li><a href="/artists">Artists</a></li>'
         result += '<li><a href="/albums">Albums</a></li>'
         result += '<li><a href="/tracks">Tracks</a></li>'
