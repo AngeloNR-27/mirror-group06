@@ -4,9 +4,12 @@ from genre  import genre
 from artist import artist
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
+#Ajout de l' URL pour la page Artists
+
 urls = (
      '/', 'index',
-    '/genre', 'genre'
+    '/genre', 'genre',
+    '/artist', 'artist'
 )
 
 class index:
@@ -53,7 +56,7 @@ class index:
 
         result += '<li><a href="/">Home</a></li>'
         result += '<li><a href="/genre">Genres</a></li>'
-        result += '<li><a href="/artists">Artists</a></li>'
+        result += '<li><a href="/artist">Artists</a></li>'
         result += '<li><a href="/albums">Albums</a></li>'
         result += '<li><a href="/tracks">Tracks</a></li>'
         result += '<li><a href="/media_types">Media Types</a></li>'
