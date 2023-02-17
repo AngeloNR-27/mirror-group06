@@ -11,11 +11,11 @@ urls = (
 
 
 
-##ajout de la class genres 
+##ajout de la class artist
 class artist:
     def GET(self) :
         db=Db().getDb()
-        artists=db.select('Artists',limit=10)
+        artists=db.select('Artist',limit=10)
         result='<html><head><title>test</title>'
         result += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
         result += '<link rel="stylesheet" href="style.css">'
