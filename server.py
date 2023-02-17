@@ -1,7 +1,7 @@
 import web
 from DB import Db
 from genre  import genre
-
+from artist import artist
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
 urls = (
