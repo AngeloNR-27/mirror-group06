@@ -30,9 +30,9 @@ class artist:
         result += nav.nav()
         result += '<table class="table table-secondary" border="1" style="width: 90%; margin: 0 auto;">'
 
-        result += '<tr class="table-success"><th>Artist</th></tr>'
+        result += '<tr class="table-secondary"><th>Artist</th></tr>'
         for artist in artists:
-            result += '<tr></tr>'
+            result += '<tr>'
            
             result +='<td>'+artist.Name+'</td>'
             result += '</tr>'

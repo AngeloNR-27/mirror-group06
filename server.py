@@ -6,6 +6,7 @@ from artist import artist
 from album import album
 from track import track
 from playlist import playlist
+from media_type import media
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
 #Ajout de l' URL pour la page Artists
@@ -16,6 +17,7 @@ urls = (
     '/artist', 'artist',
     '/album', 'album',
     '/track', 'track',
+    '/media', 'media',
     '/playlist', 'playlist'
 )
 
