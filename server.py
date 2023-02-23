@@ -9,7 +9,9 @@ web.config.debug = True
 urls = (
      '/', 'index',
     '/genre', 'genre',
-    '/artist', 'artist'
+    '/artist', 'artist',
+    '/albums', 'albums',
+    '/tracks', 'tracks'
 )
 
 class index:
