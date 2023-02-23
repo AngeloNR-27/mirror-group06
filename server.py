@@ -4,6 +4,7 @@ from DB import Db
 from genre  import genre
 from artist import artist
 from album import album
+from track import track
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
 #Ajout de l' URL pour la page Artists
@@ -13,7 +14,7 @@ urls = (
     '/genre', 'genre',
     '/artist', 'artist',
     '/album', 'album',
-    '/tracks', 'tracks'
+    '/track', 'track'
 )
 
 class index:
@@ -56,8 +57,10 @@ class index:
         result += '<ul>'
 
         result += '<body>'
+
         result += nav.nav()
         result += '<table class="table table-secondary" border="1" style="width: 95%; margin: 0 auto;">'
+
         
         result += '<tr><th>Genre</th><th>Artists</th><th>Album</th><th>Track</th><th>Media type</th><th>Playlist</th>'
 
