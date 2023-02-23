@@ -1,9 +1,17 @@
 import web
+from DB import Db
+from genre  import genre
+from artist import artist
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
+#Ajout de l' URL pour la page Artists
+
 urls = (
      '/', 'index',
-    '/genres', 'index.genres'
+    '/genre', 'genre',
+    '/artist', 'artist',
+    '/albums', 'albums',
+    '/tracks', 'tracks'
 )
 
 class index:
@@ -16,6 +24,7 @@ class index:
             pw='insigroup00',
             db='project00',
         )
+    
 
         """ antsoina any amin'ny base de données chinook,  """
         """ premier commit: ajout des albums et changement de limit=10"""
@@ -48,12 +57,19 @@ class index:
         result += '<ul class="navbar list-unstyled" style="background-color: lightgray; padding: 10px;">'
 
         result += '<li><a href="/">Home</a></li>'
+
         result += '<li><a href="index.genres">Genres</a></li>'
         result += '<li><a href="#artists">Artists</a></li>'
         result += '<li><a href="#albums">Albums</a></li>'
         result += '<li><a href="#tracks">Tracks</a></li>'
         result += '<li><a href="#media_types">Media Types</a></li>'
         result += '<li><a href="#playlists">Playlists</a></li>'
+        result += '<li><a href="/genre">Genres</a></li>'
+        result += '<li><a href="/artist">Artists</a></li>'
+        result += '<li><a href="/albums">Albums</a></li>'
+        result += '<li><a href="/tracks">Tracks</a></li>'
+        result += '<li><a href="/media_types">Media Types</a></li>'
+        result += '<li><a href="/playlists">Playlists</a></li>'
         result += '</ul>'
         result += '<table border="1">'
         
@@ -94,8 +110,11 @@ class index:
 
         result += '</body></html>'
         return result
+
         
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
     app.run()
+
+
