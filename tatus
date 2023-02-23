@@ -1,0 +1,323 @@
+[33mcommit 7d2c7b875a76ef3614e8968193836f0365dbcc77[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/remotes/origin/master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: dbcb0a8 9cfdd38
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 23 08:58:18 2023 +0300
+
+    gestion des conflits
+
+[33mcommit 9cfdd383af8fb5cae889481c4762afa35bc8bd87[m[33m ([m[1;32mmaster[m[33m)[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 23 08:45:08 2023 +0300
+
+    ajout des liens urls pour albums et tracks dans server.py
+
+[33mcommit dc086597cd0563205dd7efb945377c5ccc81ff06[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 23 08:42:38 2023 +0300
+
+    ajout du lien url de albums.py
+
+[33mcommit 9ab56a7a09efe3ab20c317707e3afaa5c8a6efdc[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 23 08:11:26 2023 +0300
+
+    ajout du style au tab genre
+
+[33mcommit c506d06bac2a9dfe8273be03f5efca8ebcc5bc38[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 17 14:48:36 2023 +0300
+
+    modification du lien vers artist dans genre qui est artists en artist
+
+[33mcommit 83d05fdef5e4396b5fd2758f8b0cc431b631b59f[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 17 14:46:28 2023 +0300
+
+    ajout des fichiers : genre.py/DB.py dans le Dockerfile
+
+[33mcommit 99bda5afb143bdc0464414a12d0717d3a1ee0808[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 17 12:45:09 2023 +0300
+
+    modification et ajout pour la deuxième fois du url
+
+[33mcommit bb1338d13a4f1a50bb4ed7db9eea2a4f2a730a4f[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 17 12:42:14 2023 +0300
+
+    modification du mot artists par artist
+
+[33mcommit b60ab4dc6b7fe88debe25b7ffddccad903852a15[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 17 11:50:11 2023 +0300
+
+    modification et création  du url dans server.py
+
+[33mcommit 9c3426dd0c08270448da5e26699d98fb3cd1fa41[m
+Merge: 1c003b8 a4d82e1
+Author: Angelo Rabetsimba <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 17 07:52:11 2023 +0000
+
+    Merged in feature/Genres (pull request #5)
+    
+    Feature/Genres
+
+[33mcommit a4d82e19b840d0fabf44bbd587ed0a60ed4bc2b9[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 12:05:30 2023 +0300
+
+    ajout des code dans genre.py
+
+[33mcommit f6ac39d55b7317d94421b48059e96d36ba3a5fbc[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 12:00:50 2023 +0300
+
+    ajout du fichier genre.py pour afficher les genres de musiques dans la base
+
+[33mcommit 3472593851dd25e2d291cb368939a63fc7e9db08[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 11:57:53 2023 +0300
+
+     ajout de la classe Db pour la connexion à la base de données
+
+[33mcommit 6d57a9143403c43f4fb2d64fc00b54c923fe270c[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 11:55:26 2023 +0300
+
+    ajout du fichier DB.py et ajout de la classe Db pour la connexion à la base de données
+
+[33mcommit 55d3c555ab3f20ea6bde9ebd6d5749c8b3f9c1ad[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 11:51:04 2023 +0300
+
+    ajout de l'import genre dans fichier server.py
+
+[33mcommit 386d1a9bbde99a5e476d9146b1ea34d26e817333[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 16 11:03:31 2023 +0300
+
+    ajout des lien vers chaque page
+
+[33mcommit 01db48465b1316f66b04cf1872d1f375b72ffa34[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 11:27:32 2023 +0300
+
+    ajout du fichier genres.py
+
+[33mcommit a6ad6aa089e5541bf919702dcf5363a9d2f01f5b[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 11:21:10 2023 +0300
+
+    modification du code sur le lien vers la page genre
+
+[33mcommit dbcb0a8d0c0b3c9a1ff46ab960db7d77b19b1ff8[m[33m ([m[1;31morigin/feat/menu[m[33m)[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 10:57:14 2023 +0300
+
+    ajout du lien vers la page genre
+
+[33mcommit 1c003b8e97b3561fc12f46497cb80f4c6efc2e44[m
+Merge: 0056107 56d5dc4
+Author: Angelo Rabetsimba <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 07:41:10 2023 +0000
+
+    Merged in feat/menu (pull request #4)
+    
+    Feat/menu
+    
+    Approved-by: mamitiana raveloarison
+
+[33mcommit 56d5dc4ef06a22be96e84ca20e7fbcb7a3f5f142[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 10:12:00 2023 +0300
+
+    suppression des double des menu
+
+[33mcommit 6305ab6b3ff07cfd3cce08141eaf0850404afdc7[m
+Merge: 09aa2a2 0056107
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Wed Feb 15 10:07:23 2023 +0300
+
+    suppression des conflits
+
+[33mcommit 09aa2a2e67e2090d6c073dd0e745c2fc66dfdbf5[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 09:38:35 2023 +0300
+
+    changement de l'ordre de place des lien dans le code
+
+[33mcommit 6c058e20b69b0ec9bf28366020c6b08fe09d32cd[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 09:35:37 2023 +0300
+
+    ajout du lien home dans le menu
+
+[33mcommit ff123875e399d3a590b7d91091808324185ec14c[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Wed Feb 15 09:04:00 2023 +0300
+
+    Ajout de l' URL pour la page Genres
+
+[33mcommit 0056107c9d44a7ba4c4299ca068a5effa5c55cbb[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 10 16:13:44 2023 +0300
+
+    Mise en commentaire de la boucle pour enlever les listes apparues au-dessous du tableau après résolution des conflits
+
+[33mcommit 45811155639fe86fe3d1aada643201a068f1d34b[m
+Merge: db9ea8a 22c0fe5
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 10 16:02:47 2023 +0300
+
+    suppression de conflit
+
+[33mcommit db9ea8a4a31e834350d917b21a1d5dcd7f184bb0[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 10 15:49:44 2023 +0300
+
+    Mise en commentaire de la boucle pour enlever les listes apparues au-dessous du tableau
+
+[33mcommit 22c0fe5864842fcd452434a38d2f772de83a11db[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:54:28 2023 +0300
+
+    ajout de background au menu
+
+[33mcommit 3eab0ff0bb923b0aa6a580b66f7fa9a252f88ea6[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:50:43 2023 +0300
+
+    suppression des style de list avec bootstrap
+
+[33mcommit 89f44da003a66f9ad113663e4b020f78292655b4[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:47:25 2023 +0300
+
+    suppression des style de list
+
+[33mcommit 057969fc22f2fafb87e943a9176ae535e3c05f26[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:45:17 2023 +0300
+
+    ajout du link css
+
+[33mcommit c1d9c94f2b63f1e6daae0fd6c96fedcbcb5d4335[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:41:30 2023 +0300
+
+    suppression du h1
+
+[33mcommit 6e2c419a68e7b1d4a7b88e86a1e12444582f4a70[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 10:40:37 2023 +0300
+
+    suppression du h1
+
+[33mcommit 7357003d9d2647690de41f831550e8d17221fb6c[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 09:58:14 2023 +0300
+
+    modification du lien bootstrap
+
+[33mcommit 48ddcf81521d755d68ac8d03d78d6e23bfa37396[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 09:53:13 2023 +0300
+
+    modification de la place du lien bootstrap
+
+[33mcommit 91d77bfa4ea94c35e16d982ae35ac80a0b789dcb[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 09:48:57 2023 +0300
+
+    ajout du cdn de bootstrap et du class navbar
+
+[33mcommit e99a7a7fe2c68ea0ab21d0bbca4878019877b7d1[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 09:33:08 2023 +0300
+
+    liaison du style.css
+
+[33mcommit cc69ec5adfa28617a6968cf6d86d1ff4c049819a[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 09:29:11 2023 +0300
+
+    ajout du menu et modification du code
+
+[33mcommit d1bbfbf9bbd1bd6f80ee6618c384d550a3546e94[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 08:58:05 2023 +0300
+
+    ajout de style css pour ameliorer l'apparance du menu
+
+[33mcommit cd54741f12640591950a9d16d2e86e5de1950ba9[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 08:45:49 2023 +0300
+
+    Ajout du menu de navigation avec des liens vers chaque tableau
+
+[33mcommit 7162a1471e5c5efc20d96bcd67e6b14f6923ceea[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Fri Feb 10 08:36:22 2023 +0300
+
+    ajout du fichier style.css
+
+[33mcommit 4671ed1f80b85aabde448495d7f07f5834d8fd26[m
+Merge: 883f64c 3123afa
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 10 08:20:24 2023 +0300
+
+    suppression des conflits
+
+[33mcommit 883f64cda72bf0bd1d6cb391804223598df1f686[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 10 08:11:09 2023 +0300
+
+    ajout des boucles
+
+[33mcommit 3123afa2f6b159309e62fe9196742adde6fdde91[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 9 21:12:44 2023 +0300
+
+    ajout html pour afficher la base de donne
+
+[33mcommit 1be964b9de6a82645d9f16f700434f96553bd632[m
+Author: AngeloNR-27 <rabetsimbaangelo@gmail.com>
+Date:   Thu Feb 9 20:56:44 2023 +0300
+
+    ajout des albums,artist,... te changement de limite = 10
+
+[33mcommit f641eea45b155a89c1c826a7518e1121c4bc7155[m
+Merge: c2e143a af1f91f
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 3 09:33:51 2023 +0300
+
+    Merge branch 'master' of https://bitbucket.org/insi-group-06/group06
+
+[33mcommit af1f91f24331ad6486213080cb255fd8402f646d[m
+Merge: 0050bad c2bcf3b
+Author: Mihamina Rakotomandimby <mihamina@rktmb.org>
+Date:   Fri Feb 3 06:24:05 2023 +0000
+
+    Merged in with-docker (pull request #1)
+    
+    Ajout du Dockerfile pour build Jenkins
+    
+    Approved-by: mamitiana ravel
+
+[33mcommit c2bcf3b1aab52c231f53b4fd0f25b5568a52b924[m[33m ([m[1;31morigin/with-docker[m[33m)[m
+Author: Mihamina <mihamina@rktmb.org>
+Date:   Fri Feb 3 09:22:39 2023 +0300
+
+    Ajout du Dockerfile pour build Jenins
+
+[33mcommit c2e143ac33f2a1c883595090046c3a2f0bd2b16d[m
+Author: mamitiana-lab <mravel890@gmail.com>
+Date:   Fri Feb 3 09:18:31 2023 +0300
+
+    premier commit comme premier test
+
+[33mcommit 0050bad682f2815f329b65a0af9cab61d4b2beef[m
+Author: Mihamina Rakotomandimby <mihamina@rktmb.org>
+Date:   Fri Jan 20 06:06:56 2023 +0000
+
+    Initial commit

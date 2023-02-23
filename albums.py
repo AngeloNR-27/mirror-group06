@@ -36,7 +36,7 @@ class album:
         result += '</ul>'
         result += '<table border="1" style="width: 90%; margin: 0 auto;">'
 
-        result += '<tr class="table-success"><th>Genre</th></tr>'
+        result += '<tr class="table-success"><th>Albums</th></tr>'
         for album in album:
             result += '<tr></tr>'
            # result +='<td>'+str(genre.GenreId)+'</td>'
