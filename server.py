@@ -5,6 +5,7 @@ from genre  import genre
 from artist import artist
 from album import album
 from track import track
+from playlist import playlist
 web.config.debug = True
 #Ajout de l' URL pour la page Genres
 #Ajout de l' URL pour la page Artists
@@ -14,7 +15,8 @@ urls = (
     '/genre', 'genre',
     '/artist', 'artist',
     '/album', 'album',
-    '/track', 'track'
+    '/track', 'track',
+    '/playlist', 'playlist'
 )
 
 class index:
