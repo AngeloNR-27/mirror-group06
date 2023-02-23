@@ -1,4 +1,5 @@
 import web
+import nav
 from DB import Db
 
 web.config.debug = True
@@ -26,17 +27,8 @@ class artist:
         result += '<ul>'
 
         result += '<body>'
-        result += '<ul class="navbar list-unstyled" style="background-color: lightgray; padding: 10px;">'
-
-        result += '<li><a href="/">Home</a></li>'
-        result += '<li><a href="/genre">Genres</a></li>'
-        result += '<li><a href="/artist">Artists</a></li>'
-        result += '<li><a href="/albums">Albums</a></li>'
-        result += '<li><a href="/tracks">Tracks</a></li>'
-        result += '<li><a href="/media_types">Media Types</a></li>'
-        result += '<li><a href="/playlists">Playlists</a></li>'
-        result += '</ul>'
-        result += '<table border="1">'
+        result += nav.nav()
+        result += '<table class="table table-secondary" border="1" style="width: 90%; margin: 0 auto;">'
 
         result += '<tr class="table-success"><th>Artist</th></tr>'
         for artist in artists:
