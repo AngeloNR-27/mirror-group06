@@ -34,7 +34,7 @@ class genre:
         result += '<li><a href="/media_types">Media Types</a></li>'
         result += '<li><a href="/playlists">Playlists</a></li>'
         result += '</ul>'
-        result += '<table border="1">'
+        result += '<table border="1" style="width: 90%; margin: 0 auto;">'
 
         result += '<tr class="table-success"><th>Genre</th></tr>'
         for genre in genres:
